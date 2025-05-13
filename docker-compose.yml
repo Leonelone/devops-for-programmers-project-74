@@ -39,6 +39,3 @@ services:
       - ./services/caddy/Caddyfile:/etc/caddy/Caddyfile
     depends_on:
       - app
-
-volumes:
-  postgres_data:
