@@ -5,16 +5,16 @@ on:
     branches:
       - main
 
+env:
+  CI: true
+  APP_IMAGE_NAME: leonelone/devops-for-programmers-project-74
+  DATABASE_NAME: postgres
+  DATABASE_USERNAME: postgres
+  DATABASE_PASSWORD: postgres
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    env:
-      CI: true
-      APP_IMAGE_NAME: leonelone/devops-for-programmers-project-74
-      DATABASE_NAME: postgres
-      DATABASE_USERNAME: postgres
-      DATABASE_PASSWORD: postgres
 
     steps:
       - name: Checkout code
