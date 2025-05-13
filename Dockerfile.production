@@ -8,6 +8,7 @@ COPY app/package-lock.json package-lock.json
 RUN npm ci
 
 COPY app/. .
+COPY app/Makefile .
 
 EXPOSE 8080
 ENV NODE_ENV=production

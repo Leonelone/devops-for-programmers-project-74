@@ -37,4 +37,3 @@ jobs:
 
       - name: Push image to Docker Hub
         run: docker compose -f docker-compose.yml push app
-        
