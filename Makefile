@@ -1,4 +1,4 @@
-  compose-setup:
+compose-setup:
 	docker compose run --rm app make setup
 
 compose-dev:
