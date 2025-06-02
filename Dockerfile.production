@@ -1,5 +1,4 @@
 FROM node:20.12.2
-
 WORKDIR /app
 
 COPY app/package.json package.json
@@ -11,7 +10,4 @@ COPY app/. .
 
 EXPOSE 8080
 ENV NODE_ENV=production
-
 RUN make build
-
-CMD make start
