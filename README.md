@@ -7,7 +7,7 @@
 
 # DevOps for Programmers – Project 74
 
-Учебный проект по автоматизации CI/CD для Node.js-приложения с использованием Docker, PostgreSQL, Makefile и GitHub Actions.
+Учебный проект использованием Docker, PostgreSQL, Makefile и GitHub Actions.
 
 ---
 
