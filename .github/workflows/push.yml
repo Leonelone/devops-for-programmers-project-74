@@ -30,10 +30,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Run tests (Docker Compose)
-        run: make compose-test
-
-      - name: Build production image
-        run: docker compose -f docker-compose.yml build app
-
-      - name: Push image to Docker Hub
-        run: docker compose -f docker-compose.yml push app
+        run: make ci
